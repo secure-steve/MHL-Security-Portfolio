@@ -22,10 +22,10 @@ The Azure Portal's IAM blade serves as a quick starting point for assessing role
 >
 >**Recommendation:** Remove standing owner role and implement PIM so that User007 has to activate the role for a specified duration and requre MFA and/or approval.
 
-*Screenshot03-01 shows the IAM blade of a resource group. Here you see active and eligible assignments.*
+*screenshot03-01 shows the IAM blade of a resource group. Here you see active and eligible assignments.*
 ![Screenshot](./images/lab03/screenshot03-01.png)
 
-*Screenshot03-02 demonstrates the csv export of a Subscription finding excessive owener permissions of many Resources in the Subscription.*
+*screenshot03-02 demonstrates the csv export of a Subscription finding excessive owener permissions of many Resources in the Subscription.*
 ![Screenshot](./images/lab03/screenshot03-02.png)
 
 
@@ -83,7 +83,7 @@ Privileged Identity Management governs Just-In-Time (JIT) access, splitting admi
 >
 >**Recommendation:** Review members of group **madhat-operatives**.
 
-*Screenshot03-03 shows PIM blade where you can view eligible assignments waiting to be activated.*
+*screenshot03-03 shows PIM blade where you can view eligible assignments waiting to be activated.*
 ![Screenshot](./images/lab03/screenshot03-03.png)
 
 ## Additional Resources
