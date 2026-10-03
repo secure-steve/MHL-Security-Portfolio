@@ -18,9 +18,9 @@ Live multi-user Azure training tenant, Reader access. Lab answers and other tena
 The Azure Portal's IAM blade serves as a quick starting point for assessing role-based access. While useful for a high-level overview, it comes with notable visibility gaps. Although it displays assigned security groups, it does not natively resolve group memberships. This creates a blind spot where actual effective permissions can be easily overlooked, particularly with dynamic groups where membership changes automatically. The IAM blade also does not show orphaned permissions (assignments left behind after a principal has been deleted).  
 
 >**Finding:** Excessive permissions (**Severity: HIGH**)  
->User **User007** has standing owner role on an excessive amount of resources.
+>User **User007** has standing owner role on an excessive amount of resources. Owner role is usually overly permissive compared to what the user actually requires for their job function.
 >
->**Recommendation:** Remove standing owner role and implement PIM so that User007 has to activate the role for a specified duration and requre MFA and/or approval.
+>**Recommendation:** Remove standing owner role, review what permissions the user actually needs, implement PIM so that User007 has to activate the role (following least privilege) for a specified duration and requre MFA and/or approval.
 
 ![Screenshot](./images/lab03/screenshot03-01.png)
 *screenshot03-01 shows the IAM blade of a resource group. Here you see active and eligible assignments.*
