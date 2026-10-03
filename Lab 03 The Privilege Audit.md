@@ -22,12 +22,11 @@ The Azure Portal's IAM blade serves as a quick starting point for assessing role
 >
 >**Recommendation:** Remove standing owner role and implement PIM so that User007 has to activate the role for a specified duration and requre MFA and/or approval.
 
-*screenshot03-01 shows the IAM blade of a resource group. Here you see active and eligible assignments.*
 ![Screenshot](./images/lab03/screenshot03-01.png)
+*screenshot03-01 shows the IAM blade of a resource group. Here you see active and eligible assignments.*
 
-*screenshot03-02 demonstrates the csv export of a Subscription finding excessive owener permissions of many Resources in the Subscription.*
 ![Screenshot](./images/lab03/screenshot03-02.png)
-
+*screenshot03-02 demonstrates the csv export of a Subscription finding excessive owener permissions of many Resources in the Subscription.*
 
 ## Audit Method 2 - Azure CLI
 Azure CLI introduces scriptable, repeatable, and programmatic capabilities to the audit process. Transitioning from manual portal checks to command-line tooling allows an analyst to turn a one-time audit into an automated, scheduled check. A benefit of Azure CLI is that it exposes orphaned permissions.  
@@ -83,8 +82,8 @@ Privileged Identity Management governs Just-In-Time (JIT) access, splitting admi
 >
 >**Recommendation:** Review members of group **madhat-operatives**.
 
-*screenshot03-03 shows PIM blade where you can view eligible assignments waiting to be activated.*
 ![Screenshot](./images/lab03/screenshot03-03.png)
+*screenshot03-03 shows PIM blade where you can view eligible assignments waiting to be activated.*
 
 ## Additional Resources
 https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-list-cli  
