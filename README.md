@@ -13,8 +13,8 @@ Contact: stevenshudy@gmail.com · https://www.linkedin.com/in/stevenhudy/
 | 3 | Privilege Audit | RBAC and least privilege | [Permissions Audit](./Lab%2003%20The%20Privilege%20Audit.md) |
 | 4 | Spin Up and Lock Down | Compute attack surface | [Pre-prod deployment review](./Lab%2004%20The%20Friday%20Deploy.md) |
 | 5 | Network the Operative | Network segmentation | [Investigation](./Lab%2005%20Network%20Like%20an%20Operative.md) |
-| 6 | Bucket Looting | Storage exposure hunting | coming, week 6 |
-| 7 | Find the Anomaly | Log analysis and KQL | coming, week 7 |
-| 8 | Hunt the Threat | SIEM operations (Sentinel) | coming, week 8 |
-| 9 | Score the Tenant | Cloud security posture | coming, week 9 |
-| 10 | The Breach (capstone) | Full incident investigation | coming, week 10 |
+| 6 | Bucket Looting | Storage exposure hunting | Coming soon! |
+| 7 | Find the Anomaly | Log analysis and KQL | Coming soon! |
+| 8 | Hunt the Threat | SIEM operations (Sentinel) | Coming soon! |
+| 9 | Score the Tenant | Cloud security posture | Coming soon! |
+| 10 | The Breach (capstone) | Full incident investigation | Coming soon! |
