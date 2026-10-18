@@ -20,7 +20,7 @@ Every trace starts with the same question. What is the source of the traffic? We
 
 ## Finding 2: The NSG
 The next step is to check the Network Security Gateway. Here I found a couple custom inbound rules. One allows HTTPS traffic from a single IP address source, the next is a deny anything else.  
-The outbound rules are default. Allowing any necessary outbound traffic through, to another VNet or to the internet.
+The outbound rules are default. Allowing any necessary outbound traffic through, to another VNet or to the internet.  
 ![Screenshot](./images/lab05/screenshot05-02.png)
 
 ## Finding 3: The Route
