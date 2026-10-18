@@ -34,3 +34,8 @@ The traffic is not hitting the virtual appliance for inspection. The next hop, t
 ## Finding 5: The Name
 When the app attempts to connect to the storage by hostname, it reaches out to a private DNS zone. The private DNS zone holds an A record (maps hostname to IPv4) for the storage account.
 ![Screenshot](./images/lab05/screenshot05-05.png)
+
+## What I learned:
+A network security group applied to a subnet, effectively applies the ACLs to each NIC individually. So the ACLs are evaluated and apply even if the destination is on the same subnet.
+
+When a Route Table is evaluating traffic, the longest prefix wins. Even if there is a forced tunnel route, ANY traffic goes to a single destination, a Private Endpoint will register a route to it's /32 prefix and override the forced tunnel.
