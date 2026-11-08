@@ -1,5 +1,11 @@
 # Network Like an Operative
 
+## Environment
+Live multi-user Azure training tenant, Reader access. Lab answers and other tenant sensititive data may be scrubbed.
+
+## Scenario
+I picked up a ticket from the app team askin gfor assistance understanding the network path of their new service.
+
 ## The Ticket
 >App team 10/16/2026 08:49am  
 Our new service can reach the customer-data storage account, but I don't understand why or how. Can someone walk me through the network path?

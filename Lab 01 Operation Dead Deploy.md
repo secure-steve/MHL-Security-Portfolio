@@ -1,10 +1,10 @@
 # Operation Dead Deploy
 
+## Environment
+Live multi-user Azure training tenant, Reader access. Lab answers and other tenant sensititive data may be scrubbed.
+
 ## Scenario
 An intern with temporary Contributor access deployed a "test environment" over a weekend, cut every corner, and left. You come in Monday as the on-call engineer with Reader access and have to reconstruct what happened and why governance did not stop it.
-
-## Environment
-Live multi-user Azure training tenant, Reader access.
 
 ## Investigation
 #### Step 01.

@@ -1,5 +1,8 @@
 # The Friday Deploy
 
+## Environment
+Live multi-user Azure training tenant, Reader access. Lab answers and other tenant sensititive data may be scrubbed.
+
 ## Scenario
 The intern shipped a new notification service Friday at 4:57pm. Now it's Monday and nobody has looked at it since deployment. I have reader access and need to review the deployment before it ships to production.
 

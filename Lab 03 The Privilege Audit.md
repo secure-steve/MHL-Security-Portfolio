@@ -1,10 +1,10 @@
 # The Privilege Audit
 
-## Scenario
-After a recent security incident, the management board is asking for a fresh report of who can do what in the Azure environment. My job is to an IAM audit and document the methods and findings.
-
 ## Environment
 Live multi-user Azure training tenant, Reader access. Lab answers and other tenant sensititive data may be scrubbed.
+
+## Scenario
+After a recent security incident, the management board is asking for a fresh report of who can do what in the Azure environment. My job is to an IAM audit and document the methods and findings.
 
 ## Audit Methodology Comparison
 | Method | Catches | Misses |

@@ -1,10 +1,10 @@
 # The Stolen Identity
 
+## Environment
+Live multi-user Azure training tenant, Reader access. Lab answers and other tenant sensititive data may be scrubbed.
+
 ## Scenario
 Reconstructed a five-stage OAuth consent-phishing kill chain in a live Azure tenant through forensic analysis of two linked app registrations.
-
-## Environment
-Live multi-user Azure training tenant, Reader access.
 
 ## Investigation
 #### 1. ENTRY
